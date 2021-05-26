@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <script type="text/javascript" src="javacalc.js">
+    </script>
+    <title>Kalkulator</title>
+</head>
+
+<body>
+    <h1>Moja stranica sa kalkulatorom</h1>
+    <div id="div1">
+    
+
+    <div>
+        <table>
+            <tr>
+                <td colspan="3"><input id="rezultat" /></td>
+                <td><input type="button" value="C" class="operator" id="c" onclick="izbrisi()" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="2" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="3" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="+" class="operator" onclick="dodajRezultat()" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="5" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="6" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="-" class="operator" onclick="dodajRezultat()" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="8" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="9" class="operand" onclick="dodajRezultat()" /></td>
+                <td><input type="button" value="*" class="operator" onclick="dodajRezultat()" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" class="operand" onclick="dodajRezultat()" /></td>
+                <td colspan="2"><input  type="button" value="=" class="operator" id="dupligumb" onclick="izvrsiIzraz()" /></td>
+                <td><input type="button" value="/" class="operator" onclick="dodajRezultat()" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+</body>
+
+</html>

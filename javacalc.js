@@ -26,3 +26,4 @@ function izbrisi(dogadjaj)
     var rezultat = document.getElementById("rezultat");
     rezultat.value="";
 }
+//komentar
